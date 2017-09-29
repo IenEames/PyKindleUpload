@@ -47,7 +47,7 @@ def uploadtokindle():
         if len(booklist) > 1:
             msgtext = "{} books were sent for upload!".format(len(booklist))
         else:
-            msgtext = "New was sent for upload!"
+            msgtext = "Book was sent for upload!"
         print(msgtext)
         msgtext = MIMEText(msgtext, 'plain')
         msg.attach(msgtext)
